@@ -1,0 +1,611 @@
+<html lang="en">
+
+<head>
+
+    <link rel="icon" type="image/ico" href="assets/favicon.ico"> <!-- Add this line -->
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="root">
+        <div class="main-background">
+            <div class="jss21 navbar"><a href="create.html">
+                    <div class="header-banner">
+                        <!-- <img src="banner.jpg" alt=""> -->
+                    </div>
+                </a>
+                <header class="jss31 jss37 jss23 jss27 jss29"
+                    style="position: relative; background: none; box-shadow: unset; display: block;">
+                    <div
+                        style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                        <div
+                            style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal; padding-top: 30px;">
+                            <div
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 16.6667%; max-width: 16.6667%; margin-left: 0%; right: auto; left: auto;">
+                                <div class="jss58 jss60 jss59">
+                                    <h2 class="jss62 jss68 jss82 jss22"><a
+                                            href="#"><img
+                                                src="assets/logo.png"
+                                                alt=""
+                                                style="height: 55px; width: 90px; border-radius: unset; margin-left: -20px;"></a>
+                                        <div
+                                            style="color: rgb(120, 121, 147); font-size: 10px; opacity: 0.35; margin-left: -7px; margin-top: -2px;">
+                                            BETA VERSION</div>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="main-nav-mobile-toggle"
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                <button id="togle" onclick="togle()" tabindex="0" class="jss93 jss87" type="button" aria-label="More"
+                                    aria-owns="long-menu" aria-haspopup="true"><span class="jss92"><svg class="jss96"
+                                            focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                                            </path>
+                                        </svg></span><span class="jss103"></span></button>
+                            </div>
+                            <div class="hidden-element-mobile"
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 33.3333%; max-width: 33.3333%; margin-left: 0%; right: auto; left: auto;">
+                            </div>
+                            
+                            <div
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; display: flex; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                <div id="navigation" class="jss58 jss60 jss59 main-nav main-nav-mobile-hidden"
+                                    style="margin-left: auto; padding-right: 0px;"><a
+                                        class="menu-element  " aria-current="page"
+                                        href="index.html"><button tabindex="0"
+                                            class="jss93 jss110 jss112 jss115 menu-element-button" type="button"><span
+                                                class="jss111">Home</span><span class="jss103"></span></button></a><a
+                                        class="menu-element menu-element-active active"
+                                        href="faq.html"><button tabindex="0"
+                                            class="jss93 jss110 jss112 jss115 menu-element-button" type="button"><span
+                                                class="jss111">F.A.Q</span><span class="jss103"></span></button></a><a
+                                        class="menu-element"
+                                        href="login.html"><button
+                                            tabindex="0" class="jss93 jss110 jss112 jss115 menu-element-button"
+                                            type="button"><span class="jss111">Login</span><span
+                                                class="jss103"></span></button></a><a
+                                        href="create.html">
+                                        <div style="display: inline-block;"><button class="pt-button pt-button-blue "
+                                                type="button"
+                                                style="cursor: pointer; height: 50px; font-weight: bold; margin-left: 10px; padding-left: 15px; padding-right: 15px;"><span>Get
+                                                    tokenized <img alt=""
+                                                        src="assets/right-arrow.png"
+                                                        style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </div><span style="display: table; clear: both;"></span>
+                    </div>
+                    
+                </header>
+            </div>
+            <div>
+                <!-- commons -->
+                <div class="app"
+                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                    <div class="main"
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                        </div>
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                            <div class="jss31 jss35 jss32 jss136 soft-shadow"
+                                style="margin: 65px auto 20px; max-width: 100%;">
+                                <div class="jss143">
+                                    <div class="jss144 jss151 jss142"><input class="jss152"
+                                            placeholder="Search for name, tag, token symbol" type="text" value=""></div>
+                                </div><button tabindex="0" class="jss93 jss87 jss137 jss140" type="button"><span
+                                        class="jss92"><svg class="jss96 jss141" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true" style="color: rgb(158, 158, 158);">
+                                            <path
+                                                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                            </path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span></button><button tabindex="0"
+                                    class="jss93 jss87 jss137 jss138" type="button"><span class="jss92"><svg
+                                            class="jss96 jss141" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true" style="color: rgb(158, 158, 158);">
+                                            <path
+                                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                            </path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <!-- commons -->
+
+
+                <!-- specific starts here -->
+                 
+                
+
+
+
+
+
+
+
+
+
+
+
+
+                <div
+                style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                <div class="sc-kkGfuU kqyzBA">
+                    <p class="header-description">All you ned to know</p>
+                    <h1>Frequently Asked Questions</h1>
+                    <div style="max-width: 768px; margin-bottom: 100px; margin-top: 50px;">
+                        <div class="jss31 jss34 jss242 jss243"
+                            style=" padding-left: 10px; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="false">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        Who can create a personal token?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 217ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                Anyone who does not have their personal token yet can create it using
+                                                Personal Tokens platform.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style=" padding-left: 10px;  border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        How can I create my personal token?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 301ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                <span>To create your personal token click "Get tokenized". You need to
+                                                    verify yourself min. in 3 available ways (to choose from: Facebook,
+                                                    LinkedIn, Google, Twitter, MetaMask), including MetaMask. You need
+                                                    to be logged into your MetaMask account, which supports the token’s
+                                                    creation in Personal Tokens. Next, you enter your name, surname and
+                                                    your token’s shortname ("Symbol"), that will be part of your token’s
+                                                    domain. Then you will see a summary of with your personal token’s
+                                                    data details . After selecting the required checkboxes you will be
+                                                    redirected further. On the next page, click “Confirm” in your
+                                                    MetaMask account (remember to check transaction fee!),and after a
+                                                    few minutes required needed to confirm the transaction in the
+                                                    Ethereum network - your token is done :) You will be put through to
+                                                    your profile subpage which includesing the withdraw option,
+                                                    information description about you, your token and much
+                                                    more.<br><br>Important: Remember that once personal token is
+                                                    generated, it remains on in the blockchain network forever and it is
+                                                    not possible to delete it or change the data provided during the
+                                                    token’s creation process!</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style=" padding-left: 10px;  border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        What will be the name of my personal token created in Personal Tokens?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 249ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                <span>Your token will be named according to the pattern: "name surname",
+                                                    e.g. "John Smith". <br>The token's shortcut will be consistent with
+                                                    a symbol that you fill in the "Symbol" field. The Cchosen symbol
+                                                    will be the part of your token’s domain, for John Smith it may be
+                                                    "JS", then the domain will take the form:
+                                                    www.personaltokens.com/JS</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style="padding-left: 10px;  border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        What technology is my personal token created in?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 229ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                Tokens generated on Personal Tokens are created on the Ethereum
+                                                platform, in the erc20 standard. The number of created tokens is 21
+                                                million, divisible to the four decimal places.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style="padding-left: 10px;  border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        How long does it take to create a personal token?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 240ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                In addition to going through the verification process and entering your
+                                                token information providing the token data that you need to made, the
+                                                time needed to generate the token depends on the Ethereum network load,
+                                                so it may take up to several minutes. Usually, the token is generated in
+                                                1-2 minutes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style=" padding-left: 10px; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        How much does it cost to create a personal token?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 249ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                <span>Issuing of the personal token is almost free. You only need to pay
+                                                    a network fee for the issuing transaction on Ethereum platform. In
+                                                    Personal Tokens you can find a current transaction fee, the amount
+                                                    is load in real time from <a
+                                                        href="https://web.archive.org/web/20220530122152/https://ethgasstation.info/">ETH
+                                                        Gas Station</a>. If you want to use our platform, we also freeze
+                                                    1% of tokens you create as a deposit and we keep it in a liquidity
+                                                    pool.</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style="padding-left: 10px;  border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        Can I pay for creating a token with fiat currencies (dollar, euro, etc.)?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 240ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                <span>No. The deposit that Personal Tokens freeze is 1% of tokens you
+                                                    generate, so we do not charge you in fiat or
+                                                    cryptocurrencies.<br>Transaction fee is charged by MetaMask in
+                                                    ETH.</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style="padding-left: 10px;  border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        What is the VIP code and how can I get it?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 257ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                <span>The VIP code is a unique code that due to you can use to generate
+                                                    your personal tokens without paying a transaction fee.<br>You can
+                                                    get the VIP code from Szczepan Bentyn who is the owner and the
+                                                    originator of Personal Tokens by participating in competitions
+                                                    organized by Szczepan. We recommend to follow Szczepan in on social
+                                                    media ;)</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style="padding-left: 10px;  border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        How should I use VIP code?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 257ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                <span>To use the VIP code (generate personal tokens without paying
+                                                    transaction fee) after clicking on "Get tokenized" and entering your
+                                                    name, surname and token shortname ("Symbol"), click athe button “Add
+                                                    VIP code”, insert paste your unique coupon in the window and click
+                                                    "Apply Code". Then proceed as in the case of the standard process of
+                                                    generating the token regular tokens generation (see point
+                                                    2.).<br>When using the VIP code, no transaction fee will be
+                                                    charged.</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jss31 jss34 jss242 jss243"
+                            style="padding-left: 10px;  border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: initial; border-left-style: solid; border-top-color: rgb(5, 159, 254); border-right-color: rgb(5, 159, 254); border-bottom-color: initial; border-left-color: rgb(5, 159, 254); border-image: initial; border-radius: 2px 2px 0px 0px; margin-bottom: 0px; margin-top: 0px;">
+                            <div tabindex="0" class="jss93 jss245 jss246" role="button" aria-expanded="true">
+                                <div class="jss249 jss246">
+                                    <p class="jss62 jss71"
+                                        style="color: rgb(37, 38, 94); font-size: 14px; font-weight: 500; letter-spacing: 0.2px; line-height: 17px;">
+                                        Can I transfer my personal tokens to my own wallet?</p>
+                                </div>
+                                <div tabindex="-1" class="jss93 jss87 jss250 jss246" role="button" aria-hidden="true">
+                                    <span class="jss92"><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span>
+                                </div>
+                            </div>
+                            <div class="jss251 jss252"
+                                style="min-height: 0px; height: auto; transition-duration: 240ms;">
+                                <div class="jss253">
+                                    <div class="jss254">
+                                        <div class="jss255">
+                                            <p class="jss62 jss71"
+                                                style="opacity: 0.8; color: rgb(120, 121, 147); font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 18px; padding-bottom: 15px; padding-right: 100px;">
+                                                Sure! To do this, click "Withdraw Tokens" in the "Profile" tab. In the
+                                                "Withdraw" window, specify the number of tokens you would like want to
+                                                withdraw. Tokens will be transferred to the wallet address connected to
+                                                your MetaMask.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><span style="display: table; clear: both;"></span>
+            </div>
+            <div>
+                <div class="fb-customerchat" page_id="1847329938913624" ref="/"></div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                <!-- specific ends here -->
+
+
+                <!-- common -->
+            </div>
+            <div></div>
+            <div class="footer-component"
+                style="width: 100%; min-height: 480px; background: url(&quot;assets/footerimage.png&quot;) 0% 0% / 100% 100% no-repeat;">
+                <div
+                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                    <div
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 41.6667%; max-width: 41.6667%; margin-left: 0%; right: auto; left: auto;">
+                            <h4>About Us</h4>
+                            <p class="about-us">Personal Tokens is a platform where you can easily verify and tokenize
+                                yourself. We are building an infrastructure for the new emerging economy based on
+                                privately issued tokens backed with real people. We are aiming to build as robust and as
+                                decentralized platform as possible. Our goal is to deliver as many tools as tokenized
+                                people need and to make the token economy as cheap as we possibly can.</p><a
+                                href="create.html">
+                                <div style="display: inline-block;"><button class="pt-button " type="button"
+                                        style="cursor: pointer;"><span><span>Get tokenized</span> <img alt=""
+                                                src="assets/right-arrow.png"
+                                                style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 58.3333%; max-width: 58.3333%; margin-left: 0%; right: auto; left: auto;">
+                            <h4>Steemit Recent News</h4>
+                            <div
+                                style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin: 48px -15px 22px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 75%; max-width: 75%; margin-left: 0%; right: auto; left: auto;">
+                            <ul class="bottom-nav">
+                                <li><a class="active" aria-current="page"
+                                        href="index.html">Home</a></li>
+                                <li><a class="menu-element"
+                                        href="login.html">Login</a></li>
+                                <li><a href="terms.html">Terms
+                                        &amp; Conditions</a></li>
+                                <li><a href="privacy.html">Privacy
+                                        Policy</a></li>
+                                <li><a href="create.html">Add my
+                                        token</a></li>
+                                <li><a href="person.html">PERSON token</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-icons"
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 25%; max-width: 25%; margin-left: 0%; right: auto; left: auto;">
+                            <a href="#" target="_blank"><img
+                                    src="assets/telegram.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/chat.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/twitter.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/facebook.png"
+                                    class="social-icon"></a>
+                        </div>
+                    </div>
+                    <div
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; color: rgb(255, 255, 255); text-align: right; margin-bottom: 28px; font-size: 14px; flex: 0 0 100%; max-width: 100%; margin-left: 0%; right: auto; left: auto;">
+                            © Copyright <a href="#" target="_blank" style="color: rgb(255, 255, 255);">Trifinity.io</a>
+                        </div>
+                    </div><span style="display: table; clear: both;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="script.js">
+                        
+                       
+                        </script>
+
+</body>
+
+</html>

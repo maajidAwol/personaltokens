@@ -1,0 +1,741 @@
+<html lang="en">
+
+<head>
+
+    <link rel="icon" type="image/ico" href="assets/favicon.ico"> <!-- Add this line -->
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div id="root">
+        <div class="main-background">
+            <div class="jss21 navbar"><a href="create.html">
+                    <div class="header-banner">
+                        <!-- <img src="banner.jpg" alt=""> -->
+                    </div>
+                </a>
+                <header class="jss31 jss37 jss23 jss27 jss29"
+                    style="position: relative; background: none; box-shadow: unset; display: block;">
+                    <div
+                        style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                        <div
+                            style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal; padding-top: 30px;">
+                            <div
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 16.6667%; max-width: 16.6667%; margin-left: 0%; right: auto; left: auto;">
+                                <div class="jss58 jss60 jss59">
+                                    <h2 class="jss62 jss68 jss82 jss22"><a
+                                            href="#"><img
+                                                src="assets/logo.png"
+                                                alt=""
+                                                style="height: 55px; width: 90px; border-radius: unset; margin-left: -20px;"></a>
+                                        <div
+                                            style="color: rgb(120, 121, 147); font-size: 10px; opacity: 0.35; margin-left: -7px; margin-top: -2px;">
+                                            BETA VERSION</div>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="main-nav-mobile-toggle"
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                <button id="togle" onclick="togle()" tabindex="0" class="jss93 jss87" type="button" aria-label="More"
+                                    aria-owns="long-menu" aria-haspopup="true"><span class="jss92"><svg class="jss96"
+                                            focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                                            </path>
+                                        </svg></span><span class="jss103"></span></button>
+                            </div>
+                            <div class="hidden-element-mobile"
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 33.3333%; max-width: 33.3333%; margin-left: 0%; right: auto; left: auto;">
+                            </div>
+                            
+                            <div
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; display: flex; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                <div id="navigation" class="jss58 jss60 jss59 main-nav main-nav-mobile-hidden"
+                                    style="margin-left: auto; padding-right: 0px;"><a
+                                        class="menu-element  menu-element-active active" aria-current="page"
+                                        href="index.html"><button tabindex="0"
+                                            class="jss93 jss110 jss112 jss115 menu-element-button" type="button"><span
+                                                class="jss111">Home</span><span class="jss103"></span></button></a><a
+                                        class="menu-element"
+                                        href="faq.html"><button tabindex="0"
+                                            class="jss93 jss110 jss112 jss115 menu-element-button" type="button"><span
+                                                class="jss111">F.A.Q</span><span class="jss103"></span></button></a><a
+                                        class="menu-element"
+                                        href="login.html"><button
+                                            tabindex="0" class="jss93 jss110 jss112 jss115 menu-element-button"
+                                            type="button"><span class="jss111">Login</span><span
+                                                class="jss103"></span></button></a><a
+                                        href="create.html">
+                                        <div style="display: inline-block;"><button class="pt-button pt-button-blue "
+                                                type="button"
+                                                style="cursor: pointer; height: 50px; font-weight: bold; margin-left: 10px; padding-left: 15px; padding-right: 15px;"><span>Get
+                                                    tokenized <img alt=""
+                                                        src="assets/right-arrow.png"
+                                                        style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </div><span style="display: table; clear: both;"></span>
+                    </div>
+                    
+                </header>
+            </div>
+            <div>
+                <!-- commons -->
+                <div class="app"
+                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                    <div class="main"
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                        </div>
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                            <div class="jss31 jss35 jss32 jss136 soft-shadow"
+                                style="margin: 65px auto 20px; max-width: 100%;">
+                                <div class="jss143">
+                                    <div class="jss144 jss151 jss142"><input class="jss152"
+                                            placeholder="Search for name, tag, token symbol" type="text" value=""></div>
+                                </div><button tabindex="0" class="jss93 jss87 jss137 jss140" type="button"><span
+                                        class="jss92"><svg class="jss96 jss141" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true" style="color: rgb(158, 158, 158);">
+                                            <path
+                                                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                            </path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span></button><button tabindex="0"
+                                    class="jss93 jss87 jss137 jss138" type="button"><span class="jss92"><svg
+                                            class="jss96 jss141" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true" style="color: rgb(158, 158, 158);">
+                                            <path
+                                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                            </path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <!-- commons -->
+
+
+                <!-- specific starts here -->
+                 
+                
+
+
+
+
+
+
+
+
+
+
+
+<div
+                style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                <div class="sc-hSdWYo hUPvBu">
+                    <p class="header-description">&nbsp;</p>
+                    <h1>Terms and Conditions – Personal Tokens</h1>
+                    <div style="max-width: 871px; margin-bottom: 100px; margin-top: 50px;">
+                        <p
+                            style="color: rgb(120, 121, 147); font-size: 14px; font-weight: 500; letter-spacing: 0.44px; line-height: 24px; text-align: justify;">
+                            <strong>§ 1. Definitions</strong><br><span>In these Terms, the following terms have the
+                                following meanings, regardless of grammatical form, gender or number used:</span><br>
+                        <table>
+                            <tr>
+                                <td style="width: 200px;">PT-</td>
+                                <td>Personal Tokens Platform can be found at personaltokens.io. The Platform allows for
+                                    personal tokenization.</td>
+                            </tr>
+                            <tr>
+                                <td>Personal tokenization -</td>
+                                <td>Issueing a token using PT platform. When generating a token, it should contain the
+                                    following characteristics: name of the token- being the first and last name of the
+                                    publisher, 21 million tokens, 4 decimal, total supply remains with the publisher.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ETH -</td>
+                                <td>Ethereum</td>
+                            </tr>
+                            <tr>
+                                <td>Tokenization Form -</td>
+                                <td>Form filled out by the Publisher, providing the specification of a given personal
+                                    token;</td>
+                            </tr>
+                            <tr>
+                                <td>Registration Form -</td>
+                                <td>Form that the User has to fill out in order to create an Account.</td>
+                            </tr>
+                            <tr>
+                                <td>Account -</td>
+                                <td>IT solution enabling the User to use the PT.</td>
+                            </tr>
+                            <tr>
+                                <td>User -</td>
+                                <td>User using the PT in order to make full use of personal tokens.</td>
+                            </tr>
+                            <tr>
+                                <td>Advertisement -</td>
+                                <td>Advertisement on the Platform posted by the Publisher regarding services offered in
+                                    return for personal tokens in his/her personal token profile on PT platform.</td>
+                            </tr>
+                            <tr>
+                                <td>Platform -</td>
+                                <td>IT solution made available by the Service Provider, enabling personal tokenization.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Terms and Conditions -</td>
+                                <td>These Terms.</td>
+                            </tr>
+                            <tr>
+                                <td>GDPR -</td>
+                                <td>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April
+                                    2016 on the protection of persons with regard to the processing of personal data and
+                                    of the free movement of such data, and repealing Directive 95/46/EC (General Data
+                                    Protection Regulation).</td>
+                            </tr>
+                            <tr>
+                                <td>Smart Contract -</td>
+                                <td>Smart contract on Ethereum blockchain created for the purpose of personal
+                                    tokenization.</td>
+                            </tr>
+                            <tr>
+                                <td>Token -</td>
+                                <td>Personal token issued by the publisher.</td>
+                            </tr>
+                            <tr>
+                                <td>Symbol -</td>
+                                <td>Unique identifier of a personal token, contining 3-8 characters in length, at least
+                                    one of which must be a letter.</td>
+                            </tr>
+                            <tr>
+                                <td>Service provider</td>
+                                <td>Personal Tokens Organisation DAO, personaltokens.aragonid.eth,
+                                    0x39641aFaD5Ec8A1fD2cDE4Cf46dd49D85B541abF</td>
+                            </tr>
+                            <tr>
+                                <td>Users -</td>
+                                <td>Publishers and Buyers.</td>
+                            </tr>
+                            <tr>
+                                <td>Publisher -</td>
+                                <td>The person issuing the Tokens.</td>
+                            </tr>
+                        </table><strong>§ 2. General Conditions</strong>
+                        <ol type="1">
+                            <li>The Terms and conditions have been established by the Service Provider and specify in
+                                particular:<ol type="a">
+                                    <li>types and scope of services provided electronically,</li>
+                                    <li>conditions of providing services electronically,</li>
+                                    <li>Service Provider’s rights and obligations related to providing access to the
+                                        Platform,</li>
+                                    <li>Users' rights and obligations according to the use of the Platform,</li>
+                                    <li>principles of protection of personal data processed in connection with the use
+                                        of the Platform by the Users,</li>
+                                    <li>complaint proceedings,</li>
+                                    <li>conditions of conclusion and termination of the Platform Agreements.</li>
+                                </ol>
+                            </li>
+                            <li>Electronic service provided by the Service Provider consists of:<ol type="a">
+                                    <li>making the Platform available to Users, and</li>
+                                    <li>making Smart Contracts available to Publishers.</li>
+                                </ol>
+                            </li>
+                            <li>Users are obliged to use the Platform in a manner consistent with the Terms and
+                                Conditions, and applicable law. They should respect the personal rights of third
+                                parties, as well as ensure that these principles are observed by those whom they
+                                authorize the use of the Platform.</li>
+                            <li>Users acknowledge that they have read the Terms and Conditions before using the
+                                Platform.</li>
+                            <li>Using the Platform is possible if the device for running the Platform meets the
+                                following minimum technical requirements:<ol type="a">
+                                    <li>device with working Internet connection,</li>
+                                    <li>Internet Explorer 11 or newer browser, Microsoft Edge, Safari 9 or newer,
+                                        Mozilla Firefox 26 or newer, or Google Chrome 32 or newer.</li>
+                                </ol>
+                            </li>
+                        </ol><strong>§ 3. Functioning of the Platform</strong>
+                        <ol type="1">
+                            <li>The Platform is made available through the website.</li>
+                            <li>The Platform enables Publishers to place Advertisements with the content determined by
+                                them.</li>
+                            <li>The Platform enables Buyers to read the Publishers' Advertisements, use and purchase
+                                personal tokens on the terms set out in the Terms and Conditions, and the Advertisements
+                                which correspond to any given publisher.</li>
+                            <li>The Service Provider shall exercise due diligence in taking technical measures to ensure
+                                uninterrupted access to the Platform.</li>
+                            <li>Users are obliged to not use the services provided by the Customer in order to upload or
+                                store unlawful content, including content that may infringe personal rights, copyrights,
+                                trademark rights and other exclusive rights.</li>
+                        </ol><strong>§ 4. Creating the Publisher Account</strong>
+                        <ol type="1">
+                            <li>In order to conclude the Platform Agreement and start using the Platform, the Publisher:
+                                <ol type="a">
+                                    <li>fills out the Registration Form, allowing for the creation of their Account,
+                                    </li>
+                                    <li>verifies their account using their social media profile.</li>
+                                </ol>
+                            </li>
+                            <li>Upon the activation of the Account, the Service Provider and the Publisher shall
+                                conclude the Platform Agreement. The rules for the implementation of the Platform
+                                Agreement as well as the rights and obligations of the parties to this agreement are set
+                                out in the Terms and Conditions.</li>
+                            <li>On the basis of the Platform Agreement, the Service Provider obliges themself to make
+                                the Platform available to the Publisher immediately after logging into the Platform, and
+                                the Publisher obliges themself to comply with the Terms and Conditions.</li>
+                            <li>The Publisher obliges themself to immediately inform the Service Provider about any
+                                change to the data provided during registration.</li>
+                            <li>The right to create an Account and use the Platform as a Publisher is limited to persons
+                                who have attained 13 years of age. By creating an Account, the Publisher declares that
+                                they have fulfilled this condition.</li>
+                            <li>The Account is protected by a password created by the Publisher. The Publisher is
+                                obliged to keep the password confidential and has no right to provide access to the
+                                Account for third parties. The Service Provider shall not be liable for damages arising
+                                as a result of disclosure by the Publisher of data allowing for access to their Account
+                                by third parties, in particular the password.</li>
+                            <li>Once the Account is activated, the Publisher may edit the Advertisements via the panel
+                                available after logging into the Account, unless the Service Provider and the Publisher
+                                decide otherwise.</li>
+                        </ol><strong>§ 5. Personal Tokenization Process</strong>
+                        <ol type="1">
+                            <li>The Publisher who has an active Account may perform personal tokenization.</li>
+                            <li>In order to perform personal tokenization, the Publisher fills out the Tokenization
+                                Form, in which they indicate the offered Tokens, and specify their symbol. The personal
+                                tokenization form is available after logging into the Account.</li>
+                            <li>The Smart Contract address of the personal token is automatically generated.</li>
+                            <li>For the purpose of personal tokenization, based on the form, the Service Provider
+                                ensures that a prepared Smart Contract is available to the Publisher, created on the
+                                basis of parameters agreed in the Terms and Conditions regarding personal tokenization.
+                                Every personal token has its own Smart Contract.</li>
+                            <li>The specification of the Publisher's personal token is:<ol type="a">
+                                    <li>Total quantity: 21,000,000</li>
+                                    <li>Divisibility (decimal point): 4</li>
+                                    <li>Blockchain: Ethereum</li>
+                                    <li>Symbol: given by the publisher</li>
+                                    <li>Name: First and Last name of the publisher</li>
+                                </ol>
+                            </li>
+                            <li>The Publisher can not perform personal tokenization, including publishing an
+                                Advertisement that:<ol type="a">
+                                    <li>violates the law,</li>
+                                    <li>violates the rights of third parties,</li>
+                                    <li>violates the Terms and Conditions.</li>
+                                </ol>
+                            </li>
+                            <li>Completed Personal Tokenization Forms are used by the Service Provider to carry out,
+                                based on the rules set out in § 9 of these Terms and Conditions, the evaluation of the
+                                Advert and personal tokenization in terms of their compliance with the law and Terms and
+                                Conditions, in particular:<ol type="a">
+                                    <li>Compliance of personal data with the actual state,</li>
+                                    <li>Non-violation of third parties’ copyrights by the Advertisement,</li>
+                                    <li>Non-violation of third parties’ personal rights by the Advertisement,</li>
+                                    <li>Non-violation of applicable law by the Advertisement.</li>
+                                </ol>
+                            </li>
+                            <li>In exchange for providing access to the Platform for Publishers, the Service Provider
+                                shall receive a remuneration consisting of:<ol type="a">
+                                    <li>Variable and dependent on blockchain network capacity transaction fee, intended
+                                        entirely to cover the launch of the smart contract.</li>
+                                    <li>1% of the publisher's personal tokens that are transferred to the address of the
+                                        PERSON FUND contract.</li>
+                                </ol>
+                            </li>
+                        </ol><strong>§ 6. Giveaway</strong>
+                        <ol type="1">
+                            <li>Once the tokens have been issued, the User may use the Giveaway function (hereinafter
+                                referred to as GA), which is the equivalent of offering a transfer of tokens to other
+                                users of the Personal Tokens Platform. The transfer of tokens occurs on a voluntary
+                                basis and constitutes a unilateral and non-equivalent forwarding of a specified amount
+                                of token units to the accounts of the Platform’s users who express willingness to accept
+                                the units.</li>
+                            <li><b>In order to proceed with the GA, The Platform User organizes an Initial Giveaway
+                                    (IGA). This is a necessary condition to unlock the GA functionality, as well as the
+                                    possibility to launch the market after the IGA ends. The IGA consists of effectively
+                                    transferring 10 000 tokens to 100 users (10 000 tokens/100 users = 100 tokens per
+                                    user). Information about an IGA organized by a user is published on the home page in
+                                    the “Giveaways” tab. The duration of carrying out an Initial Giveaway determines the
+                                    token’s rank:</b>
+                                <ol type="1">
+                                    <li><b>Popular – 24h to carry out the operation (from the moment in which the GA is
+                                            commenced to the moment in which all of the tokens in the pool are
+                                            distributed). A “popular” token will be made to stand out by means of a
+                                            badge icon in the list of tokens on the home page of the platform.</b></li>
+                                    <li><b>Super Popular – 1h to carry out the operation (from the moment in which the
+                                            GA is commenced to the moment in which all of the tokens in the pool are
+                                            distributed). A “popular” token will be made to stand out by means of a
+                                            badge icon in the list of tokens on the home page of the platform.</b></li>
+                                </ol>
+                            </li>
+                            <li><b>Having met the condition specified in paragraph 2,</b> the user who performs the GA
+                                indicates the number of users whom he or she proposes to transfer the tokens to,
+                                determines the number of token units per user account, the duration of the GA, as well
+                                as indicates if he or she wants to have the offer displayed in the „Giveaways” tab on
+                                the home page of the Personal Tokens Platform or to propose participation in the GA to
+                                other users personally<br>Establishing the aforementioned data is done by filling out a
+                                form.<ol type="a">
+                                    <li>Depending on the offeror’s decision, the duration of the operation is defined
+                                        by: setting up the date and time when the offer starts and ends or determining
+                                        the end of the offer to be the moment in which the last token from the GA pool
+                                        is transferred.</li>
+                                    <li>The offeror may simultaneously carry out many GAs with different specifications
+                                        (number of tokens, duration, etc.)</li>
+                                    <li>The „Giveaways” tab refers to a part of the Platform which is intended solely to
+                                        display all current GA offers of the Platform’s users.</li>
+                                </ol>
+                            </li>
+                            <li><b>4. Filling in the form from par. 3 by the user who carries out the GA results in
+                                    generating a link on his or her account, allowing the user to save a file that
+                                    contains the number of units which he or she is giving away to the users who are
+                                    accepting the tokens.</b><br>In order for the receiving party to accept the tokens
+                                in the IGA and GA, it is necessary for him or her to meet these conditions:<ol type="1">
+                                    <li>log in using a Google, LinkedIn, Twitter or Facebook account,</li>
+                                    <li>join the offer by clicking „join”</li>
+                                    <li>accept the terms and conditions of the Personal Tokens Platform by clicking
+                                        „confirm”.</li>
+                                </ol>
+                                <ol type="a">
+                                    <li>Accepting a token means only that the user is agreeing to have an electronic
+                                        record of the amount of tokens assigned to the designated address. The token
+                                        does not oblige the user to any benefits <b>on the Platform’s side</b>, it does
+                                        not institute a loan agreement nor does it legitimize the purchaser of the
+                                        tokens to any claims against the Platform.</li>
+                                    <li>The Platform is not liable for the legal consequences of declarations filed by
+                                        token offerors nor the price of a token unit. Neither does the Platform
+                                        guarantee profits from trading tokens.</li>
+                                    <li>Users of the Platform are aware of tax liability resulting from trading tokens,
+                                        in accordance with the revenue law in the user’s country of residence.</li>
+                                </ol>
+                            </li>
+                        </ol><strong>§ 7. Use of the Platform</strong>
+                        <ol type="1">
+                            <li>In order to conclude the Platform Agreement and to start using the Platform, the user
+                                should log into the Platform through their account at another social networking site
+                                [i.e. Facebook, Google, LinkedIn, Twitter, MetaMask].</li>
+                            <li>Once the user starts using the Platform through their account on another social
+                                networking site, the Service Provider and the User shall conclude the Platform
+                                Agreement. The rules for the implementation of the Platform Agreement as well as the
+                                rights and obligations of the parties in this agreement are set out in the Terms and
+                                Conditions.</li>
+                            <li>On the basis of the Platform Agreement, the Service Provider obliges themselves to make
+                                the Platform available to the User immediately after logging into the Platform, and the
+                                User obliges themselves to follow the Terms and Conditions.</li>
+                            <li>In exchange for providing access to the Platform for users, the Company does not charge
+                                any remuneration from users.</li>
+                        </ol><strong>§ 8. Processing of personal data</strong>
+                        <ol type="1">
+                            <li>Every User has the right to privacy protection by the Service Provider. The basic
+                                principles of providing this protection are given in the Privacy and Cookie Policy,
+                                available on the separate subpage on the Platform.</li>
+                            <li>The Service Provider is the controller of personal data referred to in § 8 point 5 of
+                                the Terms and Conditions, within the meaning of art. 4(7) GDPR.</li>
+                            <li>With regard to personal data referred to in § 8 point 7 of the Terms and Conditions, a
+                                data controller within the meaning of art. 4(7) GDPR is the Publisher.</li>
+                            <li>The Service Provider processes the following data, acting as a collector of personal
+                                data:<ol type="a">
+                                    <li>in relation to users:<ol type="i">
+                                            <li>first and last name, </li>
+                                            <li>e-mail address,</li>
+                                        </ol>
+                                    </li>
+                                    <li>in relation to Publishers:<ol type="i">
+                                            <li>Publisher’s first and last name,</li>
+                                            <li>Publisher's e-mail address,</li>
+                                            <li>information indicated by the Publisher in the Personal Tokenization Form
+                                                (Token Symbol)</li>
+                                            <li>data contained in the Advertisement.</li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>Acting as a controller of personal data, the Service Provider obliges themselves to
+                                process personal data only for the purpose of providing services to Users, in particular
+                                in order to:<ol type="i">
+                                    <li>provide access to the Platform,</li>
+                                    <li>evaluate Advertisements in terms of their compliance with legal provisions,
+                                        rights of third parties, provisions of these Terms and Conditions, and Good
+                                        Practice,</li>
+                                    <li>perform and restore backups of the Platform/Accounts,</li>
+                                    <li>test restoring backups of the Platform/Accounts in order to verify their
+                                        correctness.</li>
+                                </ol>
+                            </li>
+                            <li>The Service Provider implements technical and organizational measures ensuring
+                                protection of the data processed, appropriate to the threats and categories of data
+                                protected in accordance with the requirements of art. 32-34 GDPR.</li>
+                            <li>The Service Provider reserves the right to permanently delete the User's personal data
+                                on the terms set out in § 9.</li>
+                            <li>If the Agreement is terminated and the Platform is no longer used, the anonymised data
+                                may be retained by the Service Provider.</li>
+                            <li>The publisher acknowledges and agrees that the following personal data will be placed on
+                                Blockchain, as a consequence of which their change at the time of performing the smart
+                                contract will no longer be possible:<ol type="a">
+                                    <li>Publisher’s first and last name</li>
+                                    <li>Token symbol</li>
+                                </ol>
+                            </li>
+                        </ol><strong>§ 9. Proceedings on the refusal to publish the Advertisement, removal of the
+                            Advertisement and deletion of the User's personal data</strong>
+                        <ol type="1">
+                            <li>The Service Provider evaluates the Advertisements and data contained in the Personal
+                                Tokenization Forms in terms of their compliance with:<ol type="a">
+                                    <li>law,</li>
+                                    <li>rights of third parties,</li>
+                                    <li>provisions of these Terms and Conditions,</li>
+                                    <li>ICO Good Practice.</li>
+                                </ol>
+                            </li>
+                            <li>In the event of a suspicion that the planned Advertisement may violate the law, rights
+                                of third parties, provisions of these Terms and Conditions or Good Practice, the Service
+                                Provider may, at their sole discretion, refuse publication of the Advertisement and
+                                provision of the Smart Contract for the Publisher or call upon the Publisher to make
+                                certain changes to the Advertisement.</li>
+                            <li>In the event of a suspicion that the existing Advertisement violates the law, rights of
+                                third parties, provisions of these Terms and Conditions or ICO Good Practice, the
+                                Service Provider sends to the Publisher's Account a notification indicating the
+                                identified violation with a request to provide the relevant explanation and additional
+                                information through the Account within 5 days, or with a request to delete the
+                                Advertisement immediately.</li>
+                            <li>The Service Provider has the right to delete the Advertisement if the Publisher:<ol
+                                    type="a">
+                                    <li>has not immediately deleted the Advertisement at the request of the Service
+                                        Provider,</li>
+                                    <li>has not sent explanation or additional information at the request of the Service
+                                        Provider on time,</li>
+                                    <li>has sent explanations that, in the opinion of the Service Provider, do not prove
+                                        the compliance of the Advertisement with the law.</li>
+                                </ol>
+                            </li>
+                            <li>In the event of obtaining reliable information about the unlawful nature of the
+                                Advertisement or if the Advertisement blatantly violates the Good Practice, the Service
+                                Provider is entitled to immediately delete the Advertisement, without prior notice to
+                                the Publisher. In this case, the Service Provider provides the Publisher with
+                                information about the reasons for removing the Advertisement.</li>
+                            <li>In the cases referred to in § 9 points 4 and 5 above, the Service Provider is also
+                                entitled to permanently delete the User's personal data.</li>
+                        </ol><strong>§ 10. Complaint proceedings</strong>
+                        <ol type="1">
+                            <li>Users have the right to make a complaint related to the use of the Platform to the
+                                following e-mail address: support@personaltokens.io</li>
+                            <li>The complaint should contain at least the data of the User submitting it, as well as a
+                                description of the problem and an indication of the time and circumstances of its
+                                occurrence. It is also advisable to include technical information, i.e. the brand and
+                                model of the device used and, if necessary, the type and version of the web browser
+                                used.</li>
+                            <li>The Service Provider will try to inform the individual logging the complaint about the
+                                manner of the consideration of the complaint as soon as possible. The Service Provider
+                                has the right to extend the time for the handling of complaints, on the condition that
+                                they inform the person logging the complaint within the time specified in the preceding
+                                sentence.</li>
+                            <li>The Service Provider may request additional information from the person logging the
+                                complaint necessary to consider the complaint. The waiting time for submitting the
+                                information by the individual logging th complaint does not count towards the time of
+                                considering the complaint.</li>
+                            <li>Any person has the right to report information about the unlawful nature of
+                                Advertisements. For this purpose, the reporting person should send a relevant notice
+                                with justification to the following address: support@personaltokens.io</li>
+                        </ol><strong>§ 11. Service Provider's Limitation of Liability</strong>
+                        <ol type="1">
+                            <li>Unless otherwise stated in these Terms and Conditions, regarding the provision of
+                                electronic services through the Platform, the Service Provider shall be liable in
+                                accordance with general principles.</li>
+                            <li>The Service Provider shall not be liable for damages resulting from the use of the
+                                Platform by the User in a manner inconsistent with the Terms and Conditions or
+                                instructions provided by the Service Provider, as well as for damages resulting from or
+                                in connection with the termination of the Platform Agreement with the User.</li>
+                            <li>The Service Provider shall not be liable for any disruptions in the operation of the
+                                Platform caused by:<ol type="a">
+                                    <li>improper functioning of the User's Internet connection,</li>
+                                    <li>improper operation of devices used by the User,</li>
+                                    <li>improper functioning of the User's Internet browser for any reason,</li>
+                                    <li>operation of third parties for which the Service Provider shall not be liable.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>The Service Provider shall not be liable for the content of Advertisements and Tokens,
+                                in particular for compliance of Advertisements with the law.</li>
+                            <li>The Service Provider shall not be liable for any damages incurred by the users in
+                                connection with the purchase of Tokens.</li>
+                            <li>The Service Provider shall not be liable for any damages incurred by the users in
+                                connection with the change in the price of tokens.</li>
+                            <li>The Publisher obliges themselves to release the Service Provider from any claims of
+                                third parties, including Buyers, in connection with Advertisements and Tokens.</li>
+                            <li>The Service Provider shall not be liable for the operation of the Ethereum Blockchain,
+                                in particular for the correct transfer of ETH to the Smart Contract address and the
+                                correct transfer of Tokens to users.</li>
+                            <li>The Service Provider does not exercise any control over the launched Smart Contract, in
+                                particular, they have no technical possibility to block the Smart Contract operation or
+                                modify its operation rules.</li>
+                            <li>The Service Provider shall not be liable for any possible legal consequences for the
+                                Publisher in case of violation of the legal regulations in force in their country.</li>
+                            <li>The Service Provider shall not be liable for any damages incurred by the users and
+                                publishers in the event of providing false data or information by the Publisher.</li>
+                            <li>The Service Provider shall not be liable for any damages incurred by the users and
+                                publishers as a result of changes in the price of tokens and personal damages that may
+                                result from the possession of a personal token by the publisher.</li>
+                        </ol><strong>§ 12. Final provisions</strong>
+                        <ol type="1">
+                            <li>The Platform Agreement is concluded for an indefinite period.</li>
+                            <li>The User has the right to terminate the Platform Agreement at any time. For this
+                                purpose, the User provides the Service Provider with a declaration on the termination of
+                                the Platform Agreement or terminates it using a panel available after logging into the
+                                Account. The Platform Agreement is terminated on the day following the receipt of the
+                                notice of termination.</li>
+                            <li>The Service Provider has the right to change the Terms and Conditions in the following
+                                cases:<ol type="a">
+                                    <li>in the event of a change in the general applicable provisions of law requiring
+                                        adjustment of the Terms and Conditions,</li>
+                                    <li>in the event of the Service Provider introducing new types of services provided
+                                        with the use of the Platform,</li>
+                                    <li>in the event of a change in the functionality of the Platform, including the
+                                        manner of registration, placing Advertisements and purchasing Tokens.</li>
+                                </ol>
+                            </li>
+                            <li>The User has the right to terminate the Platform Agreement within 10 days from the day
+                                of the receipt of the notification of the amendment to the Terms and Conditions,
+                                effective upon the day of termination.</li>
+                            <li>The Service Provider has the right to terminate the Platform Agreement and delete the
+                                User's Account at any time if the User violates the provisions of the Terms and
+                                Conditions, applicable laws or rights of third parties.</li>
+                            <li>The Service Provider has the right to terminate the Platform Agreement and delete the
+                                User's Account in the absence of use of the Platform for a period of 12 months.</li>
+                            <li>Upon the termination of the Platform Agreement, the Service Provider deletes the Account
+                                of a given User.</li>
+                            <li>In the case of the Publishers, the termination of the Platform Agreement results in
+                                automatic termination of all applicable Personal Tokenization Agreements concluded with
+                                the given Publisher.</li>
+                            <li>The User has the right to withdraw from the Platform Agreement within 14 days from the
+                                first log in to the Platform.</li>
+                            <li>The Publisher has the right to withdraw from the Platform Agreement within 14 days of
+                                the Account activation, however, it will not be possible to withdraw from the Platform
+                                Agreement after the final approval of the Smart Contract by the Publisher.</li>
+                            <li>The Service Provider may send declarations addressed to the User and related to the
+                                services provided by e-mail.</li>
+                            <li>These Terms and Conditions shall be governed in accordance with Maltese law.</li>
+                            <li>These Terms and Conditions are available at personaltokens.io </li>
+                            <li>These Terms and Conditions come into force on 18 August 2019</li>
+                        </ol>
+                        </p>
+                    </div>
+                </div><span style="display: table; clear: both;"></span>
+            </div>
+            <div>
+                <div class="fb-customerchat" page_id="1847329938913624" ref="/faq"></div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- specific ends here -->
+
+
+                <!-- common -->
+            </div>
+            <div></div>
+            <div class="footer-component"
+                style="width: 100%; min-height: 480px; background: url(&quot;assets/footerimage.png&quot;) 0% 0% / 100% 100% no-repeat;">
+                <div
+                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                    <div
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 41.6667%; max-width: 41.6667%; margin-left: 0%; right: auto; left: auto;">
+                            <h4>About Us</h4>
+                            <p class="about-us">Personal Tokens is a platform where you can easily verify and tokenize
+                                yourself. We are building an infrastructure for the new emerging economy based on
+                                privately issued tokens backed with real people. We are aiming to build as robust and as
+                                decentralized platform as possible. Our goal is to deliver as many tools as tokenized
+                                people need and to make the token economy as cheap as we possibly can.</p><a
+                                href="create.html">
+                                <div style="display: inline-block;"><button class="pt-button " type="button"
+                                        style="cursor: pointer;"><span><span>Get tokenized</span> <img alt=""
+                                                src="assets/right-arrow.png"
+                                                style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 58.3333%; max-width: 58.3333%; margin-left: 0%; right: auto; left: auto;">
+                            <h4>Steemit Recent News</h4>
+                            <div
+                                style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin: 48px -15px 22px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 75%; max-width: 75%; margin-left: 0%; right: auto; left: auto;">
+                            <ul class="bottom-nav">
+                                <li><a class="active" aria-current="page"
+                                        href="index.html">Home</a></li>
+                                <li><a class="menu-element"
+                                        href="login.html">Login</a></li>
+                                <li><a href="terms.html">Terms
+                                        &amp; Conditions</a></li>
+                                <li><a href="privacy.html">Privacy
+                                        Policy</a></li>
+                                <li><a href="create.html">Add my
+                                        token</a></li>
+                                <li><a href="person.html">PERSON token</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-icons"
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 25%; max-width: 25%; margin-left: 0%; right: auto; left: auto;">
+                            <a href="#" target="_blank"><img
+                                    src="assets/telegram.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/chat.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/twitter.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/facebook.png"
+                                    class="social-icon"></a>
+                        </div>
+                    </div>
+                    <div
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; color: rgb(255, 255, 255); text-align: right; margin-bottom: 28px; font-size: 14px; flex: 0 0 100%; max-width: 100%; margin-left: 0%; right: auto; left: auto;">
+                            © Copyright <a href="#" target="_blank" style="color: rgb(255, 255, 255);">Trifinity.io</a>
+                        </div>
+                    </div><span style="display: table; clear: both;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="script.js">
+                        
+                       
+                        </script>
+
+</body>
+
+</html>

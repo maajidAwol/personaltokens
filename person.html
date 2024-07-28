@@ -1,0 +1,390 @@
+<html lang="en">
+
+<head>
+
+    <link rel="icon" type="image/ico" href="assets/favicon.ico"> <!-- Add this line -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="root">
+        <div class="main-background">
+            <div class="jss21 navbar"><a href="create.html">
+                    <div class="header-banner">
+                        <!-- <img src="banner.jpg" alt=""> -->
+                    </div>
+                </a>
+                <header class="jss31 jss37 jss23 jss27 jss29"
+                    style="position: relative; background: none; box-shadow: unset; display: block;">
+                    <div
+                        style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                        <div
+                            style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal; padding-top: 30px;">
+                            <div
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 16.6667%; max-width: 16.6667%; margin-left: 0%; right: auto; left: auto;">
+                                <div class="jss58 jss60 jss59">
+                                    <h2 class="jss62 jss68 jss82 jss22"><a
+                                            href="#"><img
+                                                src="assets/logo.png"
+                                                alt=""
+                                                style="height: 55px; width: 90px; border-radius: unset; margin-left: -20px;"></a>
+                                        <div
+                                            style="color: rgb(120, 121, 147); font-size: 10px; opacity: 0.35; margin-left: -7px; margin-top: -2px;">
+                                            BETA VERSION</div>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="main-nav-mobile-toggle"
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                <button id="togle" onclick="togle()" tabindex="0" class="jss93 jss87" type="button" aria-label="More"
+                                    aria-owns="long-menu" aria-haspopup="true"><span class="jss92"><svg class="jss96"
+                                            focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                                            </path>
+                                        </svg></span><span class="jss103"></span></button>
+                            </div>
+                            <div class="hidden-element-mobile"
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 33.3333%; max-width: 33.3333%; margin-left: 0%; right: auto; left: auto;">
+                            </div>
+                            
+                            <div
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; display: flex; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                <div id="navigation" class="jss58 jss60 jss59 main-nav main-nav-mobile-hidden"
+                                    style="margin-left: auto; padding-right: 0px;"><a
+                                        class="menu-element  menu-element-active active" aria-current="page"
+                                        href="index.html"><button tabindex="0"
+                                            class="jss93 jss110 jss112 jss115 menu-element-button" type="button"><span
+                                                class="jss111">Home</span><span class="jss103"></span></button></a><a
+                                        class="menu-element"
+                                        href="faq.html"><button tabindex="0"
+                                            class="jss93 jss110 jss112 jss115 menu-element-button" type="button"><span
+                                                class="jss111">F.A.Q</span><span class="jss103"></span></button></a><a
+                                        class="menu-element"
+                                        href="login.html"><button
+                                            tabindex="0" class="jss93 jss110 jss112 jss115 menu-element-button"
+                                            type="button"><span class="jss111">Login</span><span
+                                                class="jss103"></span></button></a><a
+                                        href="create.html">
+                                        <div style="display: inline-block;"><button class="pt-button pt-button-blue "
+                                                type="button"
+                                                style="cursor: pointer; height: 50px; font-weight: bold; margin-left: 10px; padding-left: 15px; padding-right: 15px;"><span>Get
+                                                    tokenized <img alt=""
+                                                        src="assets/right-arrow.png"
+                                                        style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </div><span style="display: table; clear: both;"></span>
+                    </div>
+                    
+                </header>
+            </div>
+            <div>
+                <!-- commons -->
+                <div class="app"
+                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                    <div class="main"
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                        </div>
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                            <div class="jss31 jss35 jss32 jss136 soft-shadow"
+                                style="margin: 65px auto 20px; max-width: 100%;">
+                                <div class="jss143">
+                                    <div class="jss144 jss151 jss142"><input class="jss152"
+                                            placeholder="Search for name, tag, token symbol" type="text" value=""></div>
+                                </div><button tabindex="0" class="jss93 jss87 jss137 jss140" type="button"><span
+                                        class="jss92"><svg class="jss96 jss141" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true" style="color: rgb(158, 158, 158);">
+                                            <path
+                                                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                            </path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span></button><button tabindex="0"
+                                    class="jss93 jss87 jss137 jss138" type="button"><span class="jss92"><svg
+                                            class="jss96 jss141" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true" style="color: rgb(158, 158, 158);">
+                                            <path
+                                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                            </path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <!-- commons -->
+
+
+                <!-- specific starts here -->
+                 
+                
+
+
+
+
+
+
+
+
+                <div class="person-page"
+                style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                <div>
+                    <div style="margin-top: 60px">
+                        <h1>PERSON Token</h1>
+                        <h2 style="margin-top: 40px; font-size: 20px;">What is a PERSON token?</h2>
+                        <div style="margin-bottom: 100px; margin-top: 50px;" class="font-gray person-about">We believe
+                            that everyone holds a value and our ultimate asset is human's attention. Without people
+                            there would be no value in the world. Our Platform is the first one in the world that lets
+                            people easily issue and manage their personal tokens, which are the tool of finding their
+                            real market value, creating a network effect and holding their value in their own hands.
+                            <br>
+                            <br>PERSON is a token created to provide liquidity to the majority of personal tokens
+                            markets. It creates an alternative market with a fix price of 1:1, where every PERSON token,
+                            can be exchanged for any personal tokens from the PERSON POOL. Every time some get
+                            tokenized, they contribute 1% (210 000 tokens) of their tokens to the PERSON POOL. It's a
+                            liquidity pool, that thanks to 1:1 ratio will create arbitrage opportunities and create more
+                            volume.
+                            <br>
+                            <br>You can buy PERSON tokens on <a
+                                href="https://kanga.exchange/market/PERSON-ETH"
+                                target="_blank">Kanga Exchange</a>.
+                        </div>
+                        <h2 class="text-center">What is the PERSON Token?</h2>
+                        <div class="text-center" style="margin-top: 40px;"> <img
+                                src="#"
+                                alt="" style="max-width: 100%; border-radius: 0px;"> </div>
+                        <h2 class="text-center" style="margin-top: 70px; margin-bottom: 100px;">PERSON token
+                            specification</h2>
+                        <div class="person-specification"
+                            style="display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0;">
+                            <div
+                                style="padding-left: 15px; padding-right: 15px; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%">
+                                <div
+                                    style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0;">
+                                    <div
+                                        style="padding-left: 15px; padding-right: 15px; overflow: hidden; flex: 0 0 17%; max-width: 17%; margin-left: 0%">
+                                        <img src="#"
+                                            alt="" style="border-radius: 0px;"> </div>
+                                    <div
+                                        style="padding-left: 15px; padding-right: 15px; overflow: hidden; flex: 0 0 83%; max-width: 83%; margin-left: 0%">
+                                        <h3>Utility</h3>
+                                        <p>PERSON tokens will also be used as utility tokens on the Personal Tokens
+                                            platform.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                style="padding-left: 15px; padding-right: 15px; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%">
+                                <div
+                                    style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0;">
+                                    <div
+                                        style="padding-left: 15px; padding-right: 15px; overflow: hidden; flex: 0 0 17%; max-width: 17%; margin-left: 0%">
+                                        <img src="#"
+                                            alt="" style="border-radius: 0px;"> </div>
+                                    <div
+                                        style="padding-left: 15px; padding-right: 15px; overflow: hidden; flex: 0 0 83%; max-width: 83%; margin-left: 0%">
+                                        <h3>10 000 000 000 PERSON</h3>
+                                        <p>We want to tokenize everyone. Ten billion is the estimate population of Earth
+                                            in 2050. One PERSON token equals 1 tokenized person.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="text-center" style="margin-top: 100px;">Early adopters distribution</h2>
+                        <div style="margin-top: 50px; overflow-x: auto;">
+                            <table class="early-adopters-table">
+                                <thead>
+                                    <tr>
+                                        <th>Batch</th>
+                                        <th>Amount of tokenized people</th>
+                                        <th>Token Bonus</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>1 000</td>
+                                        <td>1 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>1 000</td>
+                                        <td>500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>1 000</td>
+                                        <td>250</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>1 000</td>
+                                        <td>125</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>1 000</td>
+                                        <td>65</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>1 000</td>
+                                        <td>32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>1 000</td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>1 000</td>
+                                        <td>8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>1 000</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>1 000</td>
+                                        <td>2</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>Sum</td>
+                                        <td>10 000</td>
+                                        <td>2 002 000
+                                            <br><span style="font-size: 12px;">PERSON tokens</span>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <p class="text-center font-gray" style="margin-top: 30px; font-size: 12px">Early adopters
+                                bonus is distributed only among people who tokenized themselves on the Personal Tokens
+                                platform.</p>
+                        </div>
+                    </div>
+                </div><span style="display: table; clear: both;"></span>
+            </div>
+            <div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- specific ends here -->
+
+
+                <!-- common -->
+            </div>
+            <div></div>
+            <div class="footer-component"
+                style="width: 100%; min-height: 480px; background: url(&quot;assets/footerimage.png&quot;) 0% 0% / 100% 100% no-repeat;">
+                <div
+                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                    <div
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 41.6667%; max-width: 41.6667%; margin-left: 0%; right: auto; left: auto;">
+                            <h4>About Us</h4>
+                            <p class="about-us">Personal Tokens is a platform where you can easily verify and tokenize
+                                yourself. We are building an infrastructure for the new emerging economy based on
+                                privately issued tokens backed with real people. We are aiming to build as robust and as
+                                decentralized platform as possible. Our goal is to deliver as many tools as tokenized
+                                people need and to make the token economy as cheap as we possibly can.</p><a
+                                href="create.html">
+                                <div style="display: inline-block;"><button class="pt-button " type="button"
+                                        style="cursor: pointer;"><span><span>Get tokenized</span> <img alt=""
+                                                src="assets/right-arrow.png"
+                                                style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 58.3333%; max-width: 58.3333%; margin-left: 0%; right: auto; left: auto;">
+                            <h4>Steemit Recent News</h4>
+                            <div
+                                style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin: 48px -15px 22px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 75%; max-width: 75%; margin-left: 0%; right: auto; left: auto;">
+                            <ul class="bottom-nav">
+                                <li><a class="active" aria-current="page"
+                                        href="index.html">Home</a></li>
+                                <li><a class="menu-element"
+                                        href="login.html">Login</a></li>
+                                <li><a href="terms.html">Terms
+                                        &amp; Conditions</a></li>
+                                <li><a href="privacy.html">Privacy
+                                        Policy</a></li>
+                                <li><a href="create.html">Add my
+                                        token</a></li>
+                                <li><a href="person.html">PERSON token</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-icons"
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 25%; max-width: 25%; margin-left: 0%; right: auto; left: auto;">
+                            <a href="#" target="_blank"><img
+                                    src="assets/telegram.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/chat.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/twitter.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/facebook.png"
+                                    class="social-icon"></a>
+                        </div>
+                    </div>
+                    <div
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; color: rgb(255, 255, 255); text-align: right; margin-bottom: 28px; font-size: 14px; flex: 0 0 100%; max-width: 100%; margin-left: 0%; right: auto; left: auto;">
+                            © Copyright <a href="#" target="_blank" style="color: rgb(255, 255, 255);">Trifinity.io</a>
+                        </div>
+                    </div><span style="display: table; clear: both;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="script.js">
+                        
+                       
+                        </script>
+
+</body>
+
+</html>

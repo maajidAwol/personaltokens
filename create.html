@@ -1,0 +1,895 @@
+<html lang="en">
+
+<head>
+
+    <link rel="icon" type="image/ico" href="assets/favicon.ico"> <!-- Add this line -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="root">
+        <div class="main-background">
+            <div class="jss21 navbar"><a href="create.html">
+                    <div class="header-banner">
+                        <!-- <img src="banner.jpg" alt=""> -->
+                    </div>
+                </a>
+                <header class="jss31 jss37 jss23 jss27 jss29"
+                    style="position: relative; background: none; box-shadow: unset; display: block;">
+                    <div
+                        style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                        <div
+                            style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal; padding-top: 30px;">
+                            <div
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 16.6667%; max-width: 16.6667%; margin-left: 0%; right: auto; left: auto;">
+                                <div class="jss58 jss60 jss59">
+                                    <h2 class="jss62 jss68 jss82 jss22"><a
+                                            href="#"><img
+                                                src="assets/logo.png"
+                                                alt=""
+                                                style="height: 55px; width: 90px; border-radius: unset; margin-left: -20px;"></a>
+                                        <div
+                                            style="color: rgb(120, 121, 147); font-size: 10px; opacity: 0.35; margin-left: -7px; margin-top: -2px;">
+                                            BETA VERSION</div>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="main-nav-mobile-toggle"
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                <button id="togle" onclick="togle()" tabindex="0" class="jss93 jss87" type="button" aria-label="More"
+                                    aria-owns="long-menu" aria-haspopup="true"><span class="jss92"><svg class="jss96"
+                                            focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                                            </path>
+                                        </svg></span><span class="jss103"></span></button>
+                            </div>
+                            <div class="hidden-element-mobile"
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 33.3333%; max-width: 33.3333%; margin-left: 0%; right: auto; left: auto;">
+                            </div>
+                            
+                            <div
+                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; display: flex; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                <div id="navigation" class="jss58 jss60 jss59 main-nav main-nav-mobile-hidden"
+                                    style="margin-left: auto; padding-right: 0px;"><a
+                                        class="menu-element  menu-element-active active" aria-current="page"
+                                        href="index.html"><button tabindex="0"
+                                            class="jss93 jss110 jss112 jss115 menu-element-button" type="button"><span
+                                                class="jss111">Home</span><span class="jss103"></span></button></a><a
+                                        class="menu-element"
+                                        href="faq.html"><button tabindex="0"
+                                            class="jss93 jss110 jss112 jss115 menu-element-button" type="button"><span
+                                                class="jss111">F.A.Q</span><span class="jss103"></span></button></a><a
+                                        class="menu-element"
+                                        href="login.html"><button
+                                            tabindex="0" class="jss93 jss110 jss112 jss115 menu-element-button"
+                                            type="button"><span class="jss111">Login</span><span
+                                                class="jss103"></span></button></a><a
+                                        href="create.html">
+                                        <div style="display: inline-block;"><button class="pt-button pt-button-blue "
+                                                type="button"
+                                                style="cursor: pointer; height: 50px; font-weight: bold; margin-left: 10px; padding-left: 15px; padding-right: 15px;"><span>Get
+                                                    tokenized <img alt=""
+                                                        src="assets/right-arrow.png"
+                                                        style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </div><span style="display: table; clear: both;"></span>
+                    </div>
+                    
+                </header>
+            </div>
+            <div>
+                <!-- commons -->
+                <div class="app"
+                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                    <div class="main"
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                        </div>
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                            <div class="jss31 jss35 jss32 jss136 soft-shadow"
+                                style="margin: 65px auto 20px; max-width: 100%;">
+                                <div class="jss143">
+                                    <div class="jss144 jss151 jss142"><input class="jss152"
+                                            placeholder="Search for name, tag, token symbol" type="text" value=""></div>
+                                </div><button tabindex="0" class="jss93 jss87 jss137 jss140" type="button"><span
+                                        class="jss92"><svg class="jss96 jss141" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true" style="color: rgb(158, 158, 158);">
+                                            <path
+                                                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                            </path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span></button><button tabindex="0"
+                                    class="jss93 jss87 jss137 jss138" type="button"><span class="jss92"><svg
+                                            class="jss96 jss141" focusable="false" viewBox="0 0 24 24"
+                                            aria-hidden="true" style="color: rgb(158, 158, 158);">
+                                            <path
+                                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                            </path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg></span><span class="jss103"></span></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <!-- commons -->
+
+
+                <!-- specific starts here -->
+                 
+                
+
+
+
+
+
+
+
+                <div>
+                    <div style="overflow-x: hidden;">
+                        <div class="react-swipeable-view-container"
+                            style="height: 780px; flex-direction: row; transition: all; direction: ltr; display: flex; will-change: transform; transform: translate(0%, 0px);">
+                            <div aria-hidden="false" data-swipeable="true"
+                                style="width: 100%; flex-shrink: 0; overflow: auto hidden;">
+                                <div class="app"
+                                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; min-height: 780px; max-width: 1140px;">
+                                    <div style="width: 768px; margin-top: 100px;">
+                                        <h1>Connect with social accounts</h1>
+                                        <div
+                                            style="display: flex; justify-content: space-between; background-image: url(&quot;assets/white_line.png&quot;); background-repeat: no-repeat; background-position: 5px 14px; background-size: 86%; max-width: 365px;">
+                                            <div style="text-align: center;"><img class="progress-panel-description-icon"
+                                                    src="assets/green_dot.png"
+                                                    alt="icon" style="margin-top: -2px;">
+                                                <div class="progress-panel-description-active">Socials</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Data</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Summary</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Generate Token</div>
+                                            </div>
+                                        </div>
+                                        <p class="header-description">To generate your personal token, you need to verify
+                                            yourself with at least 3 sources<br> including <strong
+                                                style="cursor: pointer;">MetaMask</strong>. First you need to choose one of
+                                            the social media sources<br> (Facebook, LinkedIn, Google, Twitter).</p>
+                                        <p style="font-weight: 600; color: rgb(45, 199, 109); font-size: 14px;">Choose
+                                            verification</p>
+                                        <form class="sc-htpNat hsgNbh">
+                                            <div
+                                                style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                                                <div
+                                                    style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: visible; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                                    <div
+                                                        style="border: 2px solid rgb(214, 217, 224); background-color: rgb(250, 250, 250); border-radius: 2px; margin-bottom: 32px; color: rgb(37, 38, 94); display: flex; max-width: 370px; cursor: pointer;">
+                                                        <img src="assets/facebook.png"
+                                                            alt="Icon Social"
+                                                            style="width: 25px; height: 25px; margin-left: 20px; margin-right: 20px; margin-top: 10px;">
+                                                        <div
+                                                            style="padding-top: 15px; padding-bottom: 15px; font-size: 15px; font-weight: 600;">
+                                                            Connect with Facebook</div>
+                                                        <div style="position: absolute; margin-left: 325px;"><svg width="17"
+                                                                height="17"
+                                                                style="fill: darkgreen; margin-top: 15px; margin-right: 0px; visibility: hidden;">
+                                                                <g fill="none" fill-rule="evenodd">
+                                                                    <path fill="#FFF" d="M-874-497H566V851H-874z"></path>
+                                                                    <g transform="translate(1 1)" fill="#2DC76D"
+                                                                        stroke="#2DC76D">
+                                                                        <circle stroke-width="1.2" fill-opacity=".1"
+                                                                            cx="7.5" cy="7.5" r="7.5"></circle>
+                                                                        <path
+                                                                            d="M11.843 5.162a.503.503 0 0 0-.74 0L6.73 9.686l-1.834-1.88a.503.503 0 0 0-.74 0 .545.545 0 0 0 0 .766l2.204 2.262c.096.1.241.166.37.166a.545.545 0 0 0 .37-.166l4.743-4.89a.566.566 0 0 0 0-.782z"
+                                                                            stroke-width=".2" fill-rule="nonzero"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            <div class="jss293 jss296 jss295" role="progressbar"
+                                                                style="width: 20px; height: 20px; margin-top: 10px; margin-right: 15px; visibility: hidden;">
+                                                                <svg class="jss298" viewBox="22 22 44 44">
+                                                                    <circle class="jss299 jss301" cx="44" cy="44" r="20.2"
+                                                                        fill="none" stroke-width="3.6"></circle>
+                                                                </svg></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: visible; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                                    <div
+                                                        style="border: 2px solid rgb(214, 217, 224); background-color: rgb(250, 250, 250); border-radius: 2px; margin-bottom: 32px; color: rgb(37, 38, 94); display: flex; max-width: 370px; cursor: pointer;">
+                                                        <img src="assets/google.png"
+                                                            alt="Icon Social"
+                                                            style="width: 25px; height: 25px; margin-left: 20px; margin-right: 20px; margin-top: 10px;">
+                                                        <div
+                                                            style="padding-top: 15px; padding-bottom: 15px; font-size: 15px; font-weight: 600;">
+                                                            Connect with Google</div>
+                                                        <div style="position: absolute; margin-left: 325px;"><svg width="17"
+                                                                height="17"
+                                                                style="fill: darkgreen; margin-top: 15px; margin-right: 0px; visibility: hidden;">
+                                                                <g fill="none" fill-rule="evenodd">
+                                                                    <path fill="#FFF" d="M-874-497H566V851H-874z"></path>
+                                                                    <g transform="translate(1 1)" fill="#2DC76D"
+                                                                        stroke="#2DC76D">
+                                                                        <circle stroke-width="1.2" fill-opacity=".1"
+                                                                            cx="7.5" cy="7.5" r="7.5"></circle>
+                                                                        <path
+                                                                            d="M11.843 5.162a.503.503 0 0 0-.74 0L6.73 9.686l-1.834-1.88a.503.503 0 0 0-.74 0 .545.545 0 0 0 0 .766l2.204 2.262c.096.1.241.166.37.166a.545.545 0 0 0 .37-.166l4.743-4.89a.566.566 0 0 0 0-.782z"
+                                                                            stroke-width=".2" fill-rule="nonzero"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            <div class="jss293 jss296 jss295" role="progressbar"
+                                                                style="width: 20px; height: 20px; margin-top: 10px; margin-right: 15px; visibility: hidden;">
+                                                                <svg class="jss298" viewBox="22 22 44 44">
+                                                                    <circle class="jss299 jss301" cx="44" cy="44" r="20.2"
+                                                                        fill="none" stroke-width="3.6"></circle>
+                                                                </svg></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: visible; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                                    <div
+                                                        style="border: 2px solid rgb(214, 217, 224); background-color: rgb(250, 250, 250); border-radius: 2px; margin-bottom: 32px; color: rgb(37, 38, 94); display: flex; max-width: 370px; cursor: pointer;">
+                                                        <img src="assets/linkedin.png"
+                                                            alt="Icon Social"
+                                                            style="width: 25px; height: 25px; margin-left: 20px; margin-right: 20px; margin-top: 10px;">
+                                                        <div
+                                                            style="padding-top: 15px; padding-bottom: 15px; font-size: 15px; font-weight: 600;">
+                                                            Connect with LinkedIn</div>
+                                                        <div style="position: absolute; margin-left: 325px;"><svg width="17"
+                                                                height="17"
+                                                                style="fill: darkgreen; margin-top: 15px; margin-right: 0px; visibility: hidden;">
+                                                                <g fill="none" fill-rule="evenodd">
+                                                                    <path fill="#FFF" d="M-874-497H566V851H-874z"></path>
+                                                                    <g transform="translate(1 1)" fill="#2DC76D"
+                                                                        stroke="#2DC76D">
+                                                                        <circle stroke-width="1.2" fill-opacity=".1"
+                                                                            cx="7.5" cy="7.5" r="7.5"></circle>
+                                                                        <path
+                                                                            d="M11.843 5.162a.503.503 0 0 0-.74 0L6.73 9.686l-1.834-1.88a.503.503 0 0 0-.74 0 .545.545 0 0 0 0 .766l2.204 2.262c.096.1.241.166.37.166a.545.545 0 0 0 .37-.166l4.743-4.89a.566.566 0 0 0 0-.782z"
+                                                                            stroke-width=".2" fill-rule="nonzero"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            <div class="jss293 jss296 jss295" role="progressbar"
+                                                                style="width: 20px; height: 20px; margin-top: 10px; margin-right: 15px; visibility: hidden;">
+                                                                <svg class="jss298" viewBox="22 22 44 44">
+                                                                    <circle class="jss299 jss301" cx="44" cy="44" r="20.2"
+                                                                        fill="none" stroke-width="3.6"></circle>
+                                                                </svg></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: visible; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                                    <div
+                                                        style="border: 2px solid rgb(214, 217, 224); background-color: rgb(250, 250, 250); border-radius: 2px; margin-bottom: 32px; color: rgb(37, 38, 94); display: flex; max-width: 370px; cursor: pointer;">
+                                                        <img src="assets/twitter.png"
+                                                            alt="Icon Social"
+                                                            style="width: 25px; height: 25px; margin-left: 20px; margin-right: 20px; margin-top: 10px;">
+                                                        <div
+                                                            style="padding-top: 15px; padding-bottom: 15px; font-size: 15px; font-weight: 600;">
+                                                            Connect with Twitter</div>
+                                                        <div style="position: absolute; margin-left: 325px;"><svg width="17"
+                                                                height="17"
+                                                                style="fill: darkgreen; margin-top: 15px; margin-right: 0px; visibility: hidden;">
+                                                                <g fill="none" fill-rule="evenodd">
+                                                                    <path fill="#FFF" d="M-874-497H566V851H-874z"></path>
+                                                                    <g transform="translate(1 1)" fill="#2DC76D"
+                                                                        stroke="#2DC76D">
+                                                                        <circle stroke-width="1.2" fill-opacity=".1"
+                                                                            cx="7.5" cy="7.5" r="7.5"></circle>
+                                                                        <path
+                                                                            d="M11.843 5.162a.503.503 0 0 0-.74 0L6.73 9.686l-1.834-1.88a.503.503 0 0 0-.74 0 .545.545 0 0 0 0 .766l2.204 2.262c.096.1.241.166.37.166a.545.545 0 0 0 .37-.166l4.743-4.89a.566.566 0 0 0 0-.782z"
+                                                                            stroke-width=".2" fill-rule="nonzero"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            <div class="jss293 jss296 jss295" role="progressbar"
+                                                                style="width: 20px; height: 20px; margin-top: 10px; margin-right: 15px; visibility: hidden;">
+                                                                <svg class="jss298" viewBox="22 22 44 44">
+                                                                    <circle class="jss299 jss301" cx="44" cy="44" r="20.2"
+                                                                        fill="none" stroke-width="3.6"></circle>
+                                                                </svg></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: visible; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                                    <div style="height: 60px;">
+                                                        <div class="login__buttons-metamask" style="opacity: 0.5;">
+                                                            <div
+                                                                style="border: 2px solid rgb(214, 217, 224); background-color: rgb(250, 250, 250); border-radius: 2px; margin-bottom: 32px; color: rgb(37, 38, 94); display: flex; max-width: 370px; cursor: pointer;">
+                                                                <img src="assets/meta_mask.png"
+                                                                    alt="Icon Social"
+                                                                    style="width: 25px; height: 25px; margin-left: 20px; margin-right: 20px; margin-top: 10px;">
+                                                                <div
+                                                                    style="padding-top: 15px; padding-bottom: 15px; font-size: 15px; font-weight: 600;">
+                                                                    Connect with MetaMask</div>
+                                                                <div style="position: absolute; margin-left: 325px;"><svg
+                                                                        width="17" height="17"
+                                                                        style="fill: darkgreen; margin-top: 15px; margin-right: 0px; visibility: hidden;">
+                                                                        <g fill="none" fill-rule="evenodd">
+                                                                            <path fill="#FFF" d="M-874-497H566V851H-874z">
+                                                                            </path>
+                                                                            <g transform="translate(1 1)" fill="#2DC76D"
+                                                                                stroke="#2DC76D">
+                                                                                <circle stroke-width="1.2" fill-opacity=".1"
+                                                                                    cx="7.5" cy="7.5" r="7.5"></circle>
+                                                                                <path
+                                                                                    d="M11.843 5.162a.503.503 0 0 0-.74 0L6.73 9.686l-1.834-1.88a.503.503 0 0 0-.74 0 .545.545 0 0 0 0 .766l2.204 2.262c.096.1.241.166.37.166a.545.545 0 0 0 .37-.166l4.743-4.89a.566.566 0 0 0 0-.782z"
+                                                                                    stroke-width=".2" fill-rule="nonzero">
+                                                                                </path>
+                                                                            </g>
+                                                                        </g>
+                                                                    </svg>
+                                                                    <div class="jss293 jss296 jss295" role="progressbar"
+                                                                        style="width: 20px; height: 20px; margin-top: 10px; margin-right: 15px; visibility: hidden;">
+                                                                        <svg class="jss298" viewBox="22 22 44 44">
+                                                                            <circle class="jss299 jss301" cx="44" cy="44"
+                                                                                r="20.2" fill="none" stroke-width="3.6">
+                                                                            </circle>
+                                                                        </svg></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><svg class="jss96" focusable="false" viewBox="0 0 24 24"
+                                                        aria-hidden="true"
+                                                        style="font-size: 18px; color: rgb(214, 217, 224); position: absolute; right: -20px; top: 16px; cursor: pointer;">
+                                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                                        <path
+                                                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div></div><label class="jss302"><span
+                                                    class="jss93 jss87 jss311 jss306 jss309 pt-checkbox"><span
+                                                        class="jss92"><input class="jss314" type="checkbox"
+                                                            value="checkedA"></span><span class="jss103"></span></span><span
+                                                    class="jss62 jss71 jss305"><span class="checkbox-span">I’ve read the <a
+                                                            href="privacy.html"
+                                                            target="_blank" style="color: rgb(45, 199, 109);">Privacy
+                                                            Policy</a> and I accept it.</span></span></label><label
+                                                class="jss302"><span
+                                                    class="jss93 jss87 jss311 jss306 jss309 pt-checkbox"><span
+                                                        class="jss92"><input class="jss314" type="checkbox"
+                                                            value="checkedB"></span><span class="jss103"></span></span><span
+                                                    class="jss62 jss71 jss305"><span class="checkbox-span">I’ve read and
+                                                        accept the <a
+                                                            href="terms.html"
+                                                            target="_blank" style="color: rgb(45, 199, 109);">Terms and
+                                                            Conditions</a> of the Personal Tokens
+                                                        platform</span></span></label>
+                                            <div class="sc-bxivhb glcDfY" style="text-align: right;">
+                                                <div style="display: inline-block;"><button class="pt-button " type="button"
+                                                        disabled="" style="background: rgb(173, 181, 199);"><span><span>Move
+                                                                to <strong>Next Step</strong></span> <img alt=""
+                                                                src="assets/right-arrow.png"
+                                                                style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div><span style="display: table; clear: both;"></span>
+                                </div>
+                            </div>
+                            <div aria-hidden="true" data-swipeable="true"
+                                style="width: 100%; flex-shrink: 0; overflow: auto hidden;">
+                                <div class="app"
+                                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; min-height: 970px; max-width: 1140px;">
+                                    <div style="width: 768px; margin-top: 100px;">
+                                        <h1>Basic Data</h1>
+                                        <div
+                                            style="display: flex; justify-content: space-between; background-image: url(&quot;assets/white_line.png&quot;); background-repeat: no-repeat; background-position: 5px 14px; background-size: 86%; max-width: 365px;">
+                                            <div style="text-align: center;"><img class="progress-panel-description-icon"
+                                                    src="assets/green_dot.png"
+                                                    alt="icon" style="margin-top: -2px;">
+                                                <div class="progress-panel-description-active">Socials</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Data</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Summary</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Generate Token</div>
+                                            </div>
+                                        </div>
+                                        <p class="header-description" style="margin-bottom: 0px;">Your token will be named
+                                            according to the pattern: "first name last name", e.g. "John Smith".</p>
+                                        <form class="sc-VigVT cclLyS" novalidate="" autocomplete="off"><span
+                                                class="sc-jTzLTM gArCnl">
+                                                <div class="text-input text-input-error" style="min-height: 165px;"><label
+                                                        for="first_name">
+                                                        <div style="float: left;">First name<span
+                                                                style="color: rgb(215, 22, 44); font-weight: bold;">*</span>
+                                                        </div>
+                                                        <div style="clear: both;"></div>
+                                                    </label><span class="start-adornment-style"
+                                                        style="position: absolute; margin-top: 10px; margin-left: 15px;"></span><input
+                                                        type="text" required="" maxlength="24" id="first_name" class=""
+                                                        value="" style="min-width: 370px;">
+                                                    <p style="font-size: 12px; color: red; max-width: 365px;">First name
+                                                        must be at least one character long and cannot contain any special
+                                                        characters or numbers.</p>
+                                                </div>
+                                                <div class="text-input text-input-error" style="min-height: 165px;"><label
+                                                        for="second_name">
+                                                        <div style="float: left;">Last name<span
+                                                                style="color: rgb(215, 22, 44); font-weight: bold;">*</span>
+                                                        </div>
+                                                        <div style="clear: both;"></div>
+                                                    </label><span class="start-adornment-style"
+                                                        style="position: absolute; margin-top: 10px; margin-left: 15px;"></span><input
+                                                        type="text" required="" maxlength="35" id="second_name" class=""
+                                                        value="" style="min-width: 370px;">
+                                                    <p style="font-size: 12px; color: red; max-width: 365px;">Last name must
+                                                        be at least one character long and cannot contain any special
+                                                        characters or numbers.</p>
+                                                </div>
+                                            </span>
+                                            <p class="header-description" style="margin-bottom: 10px; margin-top: 0px;">
+                                                <span style="color: rgb(37, 38, 94); font-weight: 600;">Add a symbol of your
+                                                    token that will be part of your token’s domain. e.g.
+                                                    ”personaltokens.io/JS”.</span><br>Your token will be worth more if it's
+                                                trustworthy, give your real first and last name!<br><span
+                                                    style="color: rgb(208, 2, 27);">Remember that token name can’t be
+                                                    changed in the future.</span></p><span class="sc-jTzLTM gArCnl">
+                                                <div class="text-input " style="min-height: 165px;"><label for="symbol">
+                                                        <div style="float: left;">Symbol<span
+                                                                style="color: rgb(215, 22, 44); font-weight: bold;">*</span>
+                                                        </div>
+                                                        <div style="float: left;">
+                                                            <div><svg width="17" height="17" style="margin-left: 10px;">
+                                                                    <g fill="none" fill-rule="evenodd">
+                                                                        <path fill="#FFF" d="M-521-504H919v1929H-521z">
+                                                                        </path>
+                                                                        <g transform="translate(1 1)">
+                                                                            <circle stroke="#D6D9E0" stroke-width="1.2"
+                                                                                cx="7.5" cy="7.5" r="7.5"></circle>
+                                                                            <path
+                                                                                d="M7.433 3.5c.26 0 .485.094.672.283.187.189.28.417.28.686a.93.93 0 0 1-.277.678.902.902 0 0 1-.664.28.915.915 0 0 1-.678-.286.954.954 0 0 1-.28-.694c0-.261.092-.484.277-.67a.913.913 0 0 1 .67-.277zm-.746 2.439h1.491v5.923H6.687V5.94z"
+                                                                                fill="#D6D9E0"></path>
+                                                                        </g>
+                                                                    </g>
+                                                                </svg></div>
+                                                        </div>
+                                                        <div style="clear: both;"></div>
+                                                    </label><span class="start-adornment-style"
+                                                        style="position: absolute; margin-top: 10px; margin-left: 15px;"></span><input
+                                                        type="text" required="" minlength="2" maxlength="8" id="symbol"
+                                                        class="" value="" style="min-width: 370px;">
+                                                    <div style="margin-top: 14px;">
+                                                        <div
+                                                            style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal; color: rgb(173, 181, 199); font-size: 12px; font-weight: 300; letter-spacing: 0.17px; line-height: 14px;">
+                                                            <div
+                                                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                                                Characters 0/8 </div>
+                                                            <div
+                                                                style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; text-align: right; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto;">
+                                                                One sign as a letter</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                            <div
+                                                style="width: 370px; color: rgb(173, 181, 199); font-size: 30px; font-weight: 500; letter-spacing: 0.62px; line-height: 26px; padding-top: 20px; text-align: left;">
+                                                personaltokens.io/<span
+                                                    style="color: rgb(48, 49, 102); text-transform: uppercase;"></span>
+                                            </div>
+                                            <div class="sc-bwzfXH WchQQ"></div>
+                                            <div class="sc-bwzfXH WchQQ"></div>
+                                            <div
+                                                style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                                                <div
+                                                    style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 100%; max-width: 100%; margin-left: 0%; right: auto; left: auto;">
+                                                </div>
+                                                <div
+                                                    style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: unset; flex: 0 0 41.6667%; max-width: 41.6667%; margin-left: 0%; right: auto; left: auto;">
+                                                    <div class="sc-fjdhpX dXWexl"
+                                                        style="text-align: left; width: 100%; padding: 0px; margin: 0px; display: flex;">
+                                                        <div style="display: inline-block;"><button
+                                                                class="pt-button pt-button-blue " type="button"
+                                                                style="cursor: pointer; padding: 0px 10px; margin: 0px; font-size: 12px; height: 33px; width: auto;"><span><span>Add
+                                                                        a <strong>VIP Code</strong></span> <img alt=""
+                                                                        src="assets/arrow_down.png"
+                                                                        style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                                        </div>
+                                                        <div style="display: flex; align-items: center;">
+                                                            <div><svg width="17" height="17" style="margin-left: 10px;">
+                                                                    <g fill="none" fill-rule="evenodd">
+                                                                        <path fill="#FFF" d="M-521-504H919v1929H-521z">
+                                                                        </path>
+                                                                        <g transform="translate(1 1)">
+                                                                            <circle stroke="#D6D9E0" stroke-width="1.2"
+                                                                                cx="7.5" cy="7.5" r="7.5"></circle>
+                                                                            <path
+                                                                                d="M7.433 3.5c.26 0 .485.094.672.283.187.189.28.417.28.686a.93.93 0 0 1-.277.678.902.902 0 0 1-.664.28.915.915 0 0 1-.678-.286.954.954 0 0 1-.28-.694c0-.261.092-.484.277-.67a.913.913 0 0 1 .67-.277zm-.746 2.439h1.491v5.923H6.687V5.94z"
+                                                                                fill="#D6D9E0"></path>
+                                                                        </g>
+                                                                    </g>
+                                                                </svg></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sc-bwzfXH WchQQ"></div>
+                                            <div class="sc-fjdhpX dXWexl"
+                                                style="text-align: right; width: 100%; margin-bottom: 70px;">
+                                                <div style="display: inline-block;"><button
+                                                        class="pt-button pt-button-white " type="button"
+                                                        style="cursor: pointer;"><span><img alt=""
+                                                                src="assets/arrow_left.png"
+                                                                style="width: 11px; margin-left: 10px; margin-right: 10px;"><span>Move
+                                                                to <strong>Previous</strong></span> </span></button></div>
+                                                <span style="display: inline-flex;">
+                                                    <div style="display: inline-block;"><button class="pt-button "
+                                                            type="button" disabled=""
+                                                            style="background: rgb(173, 181, 199); width: 240px; margin-left: 50px;"><span><span>Move
+                                                                    to <strong>Next Step</strong></span> <img alt=""
+                                                                    src="assets/right-arrow.png"
+                                                                    style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </form>
+                                    </div><span style="display: table; clear: both;"></span>
+                                </div>
+                            </div>
+                            <div aria-hidden="true" data-swipeable="true"
+                                style="width: 100%; flex-shrink: 0; overflow: auto hidden;">
+                                <div class="app"
+                                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; min-height: 1840px; max-width: 1140px;">
+                                    <div style="width: 768px; margin-top: 100px;">
+                                        <h1>Summary</h1>
+                                        <div
+                                            style="display: flex; justify-content: space-between; background-image: url(&quot;assets/white_line.png&quot;); background-repeat: no-repeat; background-position: 5px 14px; background-size: 86%; max-width: 365px;">
+                                            <div style="text-align: center;"><img class="progress-panel-description-icon"
+                                                    src="assets/green_dot.png"
+                                                    alt="icon" style="margin-top: -2px;">
+                                                <div class="progress-panel-description-active">Socials</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/green_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Data</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Summary</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Generate Token</div>
+                                            </div>
+                                        </div>
+                                        <p class="header-summary">Token data</p>
+                                    </div>
+                                    <div class="sc-kAzzGY ezLEya">
+                                        <div style="max-width: 768px;">
+                                            <div class="text-input text-input-summary "><label for="pt_name">Your Personal
+                                                    Token’s name </label>
+                                                <div class="summary-element"> </div>
+                                            </div>
+                                            <div class="text-input text-input-summary "><label for="social_media">You have
+                                                    verified yourself with </label>
+                                                <div class="summary-element">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="text-input text-input-summary "><label for="token_domain">Your
+                                                    personal token's symbol </label>
+                                                <div class="summary-element"></div>
+                                            </div>
+                                            <div class="text-input text-input-summary "><label for="pt_token_domain">Your
+                                                    domain on Personal Tokens </label>
+                                                <div class="summary-element">personaltokens.io/</div>
+                                            </div>
+                                            <div class="text-input text-input-summary "><label for="pt_amount">Total supply
+                                                </label>
+                                                <div class="summary-element"><span>21 000 000</span></div>
+                                            </div>
+                                            <div class="text-input text-input-summary "><label for="pt_amount">Decimals
+                                                </label>
+                                                <div class="summary-element">4</div>
+                                            </div>
+                                            <div class="text-input text-input-summary "><label for="metamask_address">This
+                                                    is your verified MetaMask address </label>
+                                                <div class="summary-element"></div>
+                                            </div>
+                                            <div class="text-input text-input-summary "><label for="blockchain">Your
+                                                    Personal Token will be on this blockchain </label>
+                                                <div class="summary-element">Ethereum</div>
+                                            </div>
+                                            <div class="text-input text-input-summary "><label
+                                                    for="personal_token_fee">Personal Token's minimum deposit <div
+                                                        style="display: inline-block;"><svg width="17" height="17"
+                                                            style="margin-left: 10px;">
+                                                            <g fill="none" fill-rule="evenodd">
+                                                                <path fill="#FFF" d="M-521-504H919v1929H-521z"></path>
+                                                                <g transform="translate(1 1)">
+                                                                    <circle stroke="#D6D9E0" stroke-width="1.2" cx="7.5"
+                                                                        cy="7.5" r="7.5"></circle>
+                                                                    <path
+                                                                        d="M7.433 3.5c.26 0 .485.094.672.283.187.189.28.417.28.686a.93.93 0 0 1-.277.678.902.902 0 0 1-.664.28.915.915 0 0 1-.678-.286.954.954 0 0 1-.28-.694c0-.261.092-.484.277-.67a.913.913 0 0 1 .67-.277zm-.746 2.439h1.491v5.923H6.687V5.94z"
+                                                                        fill="#D6D9E0"></path>
+                                                                </g>
+                                                            </g>
+                                                        </svg></div></label>
+                                                <div class="summary-element"><span>210 000 (1% of your personal
+                                                        tokens)</span></div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="height: 1px; max-width: 510px; border: 1px solid rgb(214, 217, 224); margin-top: 55px; margin-bottom: 25px;">
+                                        </div>
+                                        <p class="header-summary" style="margin-bottom: 0px; margin-top: 10px;">Fees</p>
+                                        <div class="text-input text-input-summary "><label
+                                                for="current_transaction_fee">Current transaction fee </label>
+                                            <div class="summary-element"><span>0 $</span></div>
+                                        </div>
+                                        <div
+                                            style="height: 1px; max-width: 510px; border: 1px solid rgb(214, 217, 224); margin-top: 55px; margin-bottom: 10px;">
+                                        </div>
+                                        <div>
+                                            <div class="sc-chPdSV dXrGDv"><label class="jss302"><span
+                                                        class="jss93 jss87 jss311 jss306 jss310 pt-checkbox"><span
+                                                            class="jss92"><svg width="17" height="17">
+                                                                <g fill="none" fill-rule="evenodd">
+                                                                    <path fill="#FFF" d="M-135-1191h1440V734H-135z"></path>
+                                                                    <circle cx="7.5" cy="7.5" r="7.5"
+                                                                        transform="translate(1 1)" stroke="#D6D9E0"
+                                                                        stroke-width="1.2"></circle>
+                                                                </g>
+                                                            </svg><input class="jss314" type="checkbox"
+                                                                value="checkedA"></span><span
+                                                            class="jss103"></span></span><span
+                                                        class="jss62 jss71 jss305"><span class="checkbox-span">Yes, I
+                                                            understand that my data cannot be removed because they are
+                                                            written on the blockchain.</span></span></label><label
+                                                    class="jss302"><span
+                                                        class="jss93 jss87 jss311 jss306 jss309 pt-checkbox"><span
+                                                            class="jss92"><svg width="17" height="17">
+                                                                <g fill="none" fill-rule="evenodd">
+                                                                    <path fill="#FFF" d="M-135-1191h1440V734H-135z"></path>
+                                                                    <circle cx="7.5" cy="7.5" r="7.5"
+                                                                        transform="translate(1 1)" stroke="#D6D9E0"
+                                                                        stroke-width="1.2"></circle>
+                                                                </g>
+                                                            </svg><input class="jss314" type="checkbox"
+                                                                value="checkedC"></span><span
+                                                            class="jss103"></span></span><span
+                                                        class="jss62 jss71 jss305"><span class="checkbox-span">I declare
+                                                            that the entered personal data - my first name and last name are
+                                                            my real names</span></span></label></div><br>
+                                        </div>
+                                        <div class="sc-bwzfXH WchQQ"></div>
+                                        <div class="sc-bwzfXH WchQQ"></div>
+                                        <div style="text-align: right; width: 768px;">
+                                            <div style="display: inline-block;"><button class="pt-button pt-button-white "
+                                                    type="button" style="cursor: pointer;"><span><img alt=""
+                                                            src="assets/arrow_left.png"
+                                                            style="width: 11px; margin-left: 10px; margin-right: 10px;"><span>Move
+                                                            to <strong>Previous</strong></span> </span></button></div><span
+                                                style="display: inline-flex;">
+                                                <div style="display: inline-block;"><button class="pt-button " type="button"
+                                                        disabled=""
+                                                        style="background: rgb(173, 181, 199); margin-left: 50px;"><span><span>Generate
+                                                                Your Token</span> <img alt=""
+                                                                src="assets/right-arrow.png"
+                                                                style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                                </div>
+                                            </span>
+                                        </div>
+                                        <div class="sc-bwzfXH WchQQ"></div>
+                                        <div class="sc-bwzfXH WchQQ"></div>
+                                    </div><span style="display: table; clear: both;"></span>
+                                </div>
+                            </div>
+                            <div aria-hidden="true" data-swipeable="true"
+                                style="width: 100%; flex-shrink: 0; overflow: auto hidden;">
+                                <div class="app"
+                                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; min-height: 700px; max-width: 1140px;">
+                                    <div style="width: 768px; margin-top: 100px;">
+                                        <h1>Generate token</h1>
+                                        <div
+                                            style="display: flex; justify-content: space-between; background-image: url(&quot;assets/white_line.png&quot;); background-repeat: no-repeat; background-position: 5px 14px; background-size: 86%; max-width: 365px;">
+                                            <div style="text-align: center;"><img class="progress-panel-description-icon"
+                                                    src="assets/green_dot.png"
+                                                    alt="icon" style="margin-top: -2px;">
+                                                <div class="progress-panel-description-active">Socials</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Data</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Summary</div>
+                                            </div>
+                                            <div style="text-align: center;"><img
+                                                    src="assets/white_dot.png"
+                                                    class="progress-panel-description-icon" alt="step icon"
+                                                    style="margin-bottom: 2px;">
+                                                <div class="progress-panel-description">Generate Token</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sc-kgoBCf eJyTZN">
+                                        <div class="sc-kgoBCf eJyTZN"><img
+                                                src="assets/spinner.gif"
+                                                alt="Loading" style="height: 200px;">
+                                            <div>
+                                                <div>
+                                                    <h1 style="text-align: center; line-height: 40px; margin-top: 30px;">
+                                                        Preparing...</h1>
+                                                    <p class="jss62 jss71 small-text"
+                                                        style="text-align: center; margin-top: 40px;">Now the MetaMask
+                                                        window should open, click "Confirm".<br>If the window does not open,
+                                                        click on the orange fox icon <img
+                                                            src="assets/fox.png"
+                                                            alt="Icon" style="vertical-align: middle;"><br>in the upper
+                                                        right corner of your browser.</p>
+                                                </div>
+                                            </div>
+                                            <div class="sc-bwzfXH WchQQ"></div>
+                                        </div>
+                                    </div><span style="display: table; clear: both;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="fb-customerchat" page_id="1847329938913624" ref="/"></div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- specific ends here -->
+
+
+                <!-- common -->
+            </div>
+            <div></div>
+            <div class="footer-component"
+                style="width: 100%; min-height: 480px; background: url(&quot;assets/footerimage.png&quot;) 0% 0% / 100% 100% no-repeat;">
+                <div
+                    style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; max-width: 1140px;">
+                    <div
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 41.6667%; max-width: 41.6667%; margin-left: 0%; right: auto; left: auto;">
+                            <h4>About Us</h4>
+                            <p class="about-us">Personal Tokens is a platform where you can easily verify and tokenize
+                                yourself. We are building an infrastructure for the new emerging economy based on
+                                privately issued tokens backed with real people. We are aiming to build as robust and as
+                                decentralized platform as possible. Our goal is to deliver as many tools as tokenized
+                                people need and to make the token economy as cheap as we possibly can.</p><a
+                                href="create.html">
+                                <div style="display: inline-block;"><button class="pt-button " type="button"
+                                        style="cursor: pointer;"><span><span>Get tokenized</span> <img alt=""
+                                                src="assets/right-arrow.png"
+                                                style="width: 11px; margin-left: 10px; margin-right: 10px;"></span></button>
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 58.3333%; max-width: 58.3333%; margin-left: 0%; right: auto; left: auto;">
+                            <h4>Steemit Recent News</h4>
+                            <div
+                                style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin: 48px -15px 22px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 75%; max-width: 75%; margin-left: 0%; right: auto; left: auto;">
+                            <ul class="bottom-nav">
+                                <li><a class="active" aria-current="page"
+                                        href="index.html">Home</a></li>
+                                <li><a class="menu-element"
+                                        href="login.html">Login</a></li>
+                                <li><a href="terms.html">Terms
+                                        &amp; Conditions</a></li>
+                                <li><a href="privacy.html">Privacy
+                                        Policy</a></li>
+                                <li><a href="create.html">Add my
+                                        token</a></li>
+                                <li><a href="person.html">PERSON token</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-icons"
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; flex: 0 0 25%; max-width: 25%; margin-left: 0%; right: auto; left: auto;">
+                            <a href="#" target="_blank"><img
+                                    src="assets/telegram.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/chat.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/twitter.png"
+                                    class="social-icon"></a><a href="#" target="_blank"><img
+                                    src="assets/facebook.png"
+                                    class="social-icon"></a>
+                        </div>
+                    </div>
+                    <div
+                        style="margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap; flex-grow: 0; flex-shrink: 0; align-items: normal;">
+                        <div
+                            style="box-sizing: border-box; min-height: 1px; position: relative; padding-left: 15px; padding-right: 15px; width: 100%; overflow: hidden; color: rgb(255, 255, 255); text-align: right; margin-bottom: 28px; font-size: 14px; flex: 0 0 100%; max-width: 100%; margin-left: 0%; right: auto; left: auto;">
+                            © Copyright <a href="#" target="_blank" style="color: rgb(255, 255, 255);">Trifinity.io</a>
+                        </div>
+                    </div><span style="display: table; clear: both;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="script.js">
+                        
+                       
+                        </script>
+
+</body>
+
+</html>
